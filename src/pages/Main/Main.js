@@ -3,7 +3,7 @@ import './Main.scss';
 
 const Main = () => {
   return (
-    <>
+    <div className="main">
       <nav className="nav_bar">
         <div className="nav_left">
           <img src="../img/instagram.png" alt="instagramLogoImg" />
@@ -198,7 +198,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

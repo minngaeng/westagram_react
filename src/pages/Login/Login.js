@@ -1,6 +1,6 @@
 import React from 'react';
-import './Login.css';
 import { useNavigate } from 'react-router-dom';
+import './Login.scss';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -8,7 +8,7 @@ const Login = () => {
     navigate('/main');
   };
   return (
-    <div className="main">
+    <div className="login">
       <header className="logo">Westagram</header>
       <div className="container">
         <input className="id" placeholder="전화번호,사용자 이름 또는 이메일" />
