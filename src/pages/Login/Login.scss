@@ -2,10 +2,6 @@
 @import '../../styles/mixin.scss';
 @import '../../styles/reset.scss';
 @import '../../styles/variables.scss';
-* {
-  // box-sizing: border-box;
-  padding: 10px;
-}
 
 .login {
   @include flexCenter;
@@ -15,11 +11,13 @@
   border: 2px solid #eaeaea;
   border-radius: 3px;
   background-color: white;
+  padding: 10px;
 
   .logo {
     font-family: 'Lobster', cursive;
     font-size: 50px;
     font-weight: 100;
+    padding: 10px;
   }
   .id {
     width: 400px;
@@ -30,6 +28,7 @@
     border: 2px solid #eaeaea;
     color: #8e8e8e;
     padding: 10px 10px;
+    padding: 10px;
   }
   .password {
     display: block;
@@ -40,6 +39,7 @@
     border-radius: 5px;
     border: 2px solid #eaeaea;
     color: $ea;
+    padding: 10px;
   }
   .account {
     display: block;
@@ -51,13 +51,16 @@
     color: white;
     font-size: 20px;
     cursor: pointer;
+    padding: 10px;
   }
   .bottom {
     margin-top: 296px;
     color: #01376a;
     cursor: pointer;
+    padding: 10px;
   }
   .active {
     background-color: blue;
+    padding: 10px;
   }
 }
